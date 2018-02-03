@@ -23,9 +23,19 @@ Content Types are what you use to create a new page on a site. To do so navigate
 
 To modify the properties of a Content Type navigate to Structure &gt; Content Types. There you will see the current Content Types available and the options you've got to modify them.
 
+### Edit
+
+High level settings for the Content Type including the name of the content type \(which generates the machine name of the content type\). A description of the Content Type for the user.
+
+**Submission Form Settings** - This is where you adjust the Title field for the Content Type.
+
+**Publishing Options** - This is where you set the default publishing options. These can be over written by the user.
+
+**Display Settings**  - Show the Author Name and date information on the website to the end user.
+
 ### Manage Fields
 
-This is where you go to edit the input fields the user sees. You set the Label for the field here as well as Help Text. Also available are the Field Settings adjustments which is used to adjust the allowed number of values for the field.
+This is where you go to edit the input fields the user sees. You set the Label for the field here as well as Help Text related to the specific field. Also available are the Field Settings adjustments which is used to adjust the allowed number of values for the field.
 
 ### Manage Form Display
 
@@ -34,6 +44,4 @@ This is where you go to adjust how the form fields are displayed in the CMS and 
 ### Manage Display
 
 This is where you go to manage how the content will be display on the website to the end user.
-
-
 
