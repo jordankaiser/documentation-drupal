@@ -25,9 +25,9 @@ To modify the properties of a Content Type navigate to Structure &gt; Content Ty
 
 ### Manage Fields
 
-This is where you go to edit the fields the user see's. You set the Label for the field here as well as Help Text. Also available are the Field Settings adjustments which is used to adjust the allowed number of values for the field.
+This is where you go to edit the input fields the user sees. You set the Label for the field here as well as Help Text. Also available are the Field Settings adjustments which is used to adjust the allowed number of values for the field.
 
+### Manage Form Display
 
-
-
+This is where you go to adjust how the form fields are displayed in the CMS and also modify how those form fields behave. For example 
 
