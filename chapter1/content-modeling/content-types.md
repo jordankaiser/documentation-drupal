@@ -33,6 +33,8 @@ High level settings for the Content Type including the name of the content type 
 
 **Display Settings**  - Show the Author Name and date information on the website to the end user.
 
+**Menu settings** - Sets where/if the content type appears in the menu\(s\).
+
 ### Manage Fields
 
 This is where you go to edit the input fields the user sees. You set the Label for the field here as well as Help Text related to the specific field. Also available are the Field Settings adjustments which is used to adjust the allowed number of values for the field.
