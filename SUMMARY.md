@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Site Building](chapter1.md)
+  * [Content Modeling](chapter1/content-modeling.md)
+
