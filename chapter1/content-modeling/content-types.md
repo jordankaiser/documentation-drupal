@@ -15,3 +15,19 @@ Basically a Content Type is a high level container of data.
 
 A popular module, [Paragraphs](https://www.drupal.org/project/paragraphs), adjusts this functionality. The user will choose a Content Type as before but then, instead of being presented with a selection of fields, the user is presented with the ability to choose from a drop-down of different types of content. This allows the user to customize the types of data on a Content Type.
 
+## Use
+
+Content Types are what you use to create a new page on a site. To do so navigate to Content &gt; Add Content &gt; \[Content Name\] and your new page will be created.
+
+## Modification of a Content Type
+
+To modify the properties of a Content Type navigate to Structure &gt; Content Types. There you will see the current Content Types available and the options you've got to modify them.
+
+### Manage Fields
+
+This is where you go to edit the fields the user see's. You set the Label for the field here as well as Help Text. Also available are the Field Settings adjustments which is used to adjust the allowed number of values for the field.
+
+
+
+
+
