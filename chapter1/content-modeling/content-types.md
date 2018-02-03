@@ -29,5 +29,11 @@ This is where you go to edit the input fields the user sees. You set the Label f
 
 ### Manage Form Display
 
-This is where you go to adjust how the form fields are displayed in the CMS and also modify how those form fields behave. For example 
+This is where you go to adjust how the form fields are displayed in the CMS and also modify how those form fields behave. For example you could set the character size of a Textfield here.
+
+### Manage Display
+
+This is where you go to manage how the content will be display on the website to the end user.
+
+
 
