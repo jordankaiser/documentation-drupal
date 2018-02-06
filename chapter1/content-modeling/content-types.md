@@ -47,5 +47,5 @@ This is where you go to adjust how the form fields are displayed in the CMS and 
 
 ### Manage Display
 
-This is where you go to manage how the content will be display on the website to the end user. For example you can set the form field for a text area to be 10 rows high.
+This is where you go to manage how the content will be display on the website to the end user. For example you can set the form field for a text area to be 10 rows high. You can adjust the ordering the fields appear in.
 
