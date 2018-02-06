@@ -39,11 +39,11 @@ High level settings for the Content Type including the name of the content type 
 
 This is where you go to edit the input fields the user sees. You set the Label for the field here as well as Help Text related to the specific field. Also available are the Field Settings adjustments which is used to adjust the allowed number of values for the field.
 
+**Text Format** - This where you determine what type of content the user can enter in the field such as text only, rich HTML or basic HTML.
+
 ### Manage Form Display
 
 This is where you go to adjust how the form fields are displayed in the CMS and also modify how those form fields behave. For example you could set the character size of a Textfield here.
-
-**Text Format** - This where you determine what type of content the user can enter in the field such as text only, rich HTML or basic HTML.
 
 ### Manage Display
 
