@@ -43,6 +43,8 @@ This is where you go to edit the input fields the user sees. You set the Label f
 
 This is where you go to adjust how the form fields are displayed in the CMS and also modify how those form fields behave. For example you could set the character size of a Textfield here.
 
+**Text Format** - This where you determine what type of content the user can enter in the field such as text only, rich HTML or basic HTML.
+
 ### Manage Display
 
 This is where you go to manage how the content will be display on the website to the end user.
