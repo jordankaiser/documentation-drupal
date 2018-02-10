@@ -4,7 +4,7 @@ Entities are the basic building blocks of Drupals data model. The make up, in on
 
 Responsible for providing the basic organizational mechanisms for  creating the sites content. Everything in Drupal 8 is an Entity. All of an Entities properties and values are fields \(bundle or base\) which provides a unified way to modify/work with them. Understanding the relationship between entity types, bundles and fields and how they can be used.
 
-Entities can be defined in two types, Configuration Entities and Content Entities.
+Entities can be defined in two types, _Configuration Entities_ and _Content Entities_.
 
 ## Configuration Entities
 
@@ -66,8 +66,4 @@ Specifically formatted code comments that are parsed to provide metadata informa
 ### Handlers
 
 The equivalent to Drupals 7's controllers. They act on and with entities. Used for managing thing like storage, access control, list building and view of entitites and the forms required for creating, viewing, updating and deleting entities.
-
-
-
-
 
