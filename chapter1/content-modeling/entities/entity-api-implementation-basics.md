@@ -36,3 +36,36 @@ Configuration Entities main functionality has to do with information storage and
 
 Unlike Config entities Content entities are fieldable. Those fields can be shared among all entities of a given type, those fields are called base fields. Fields that are unique among the the sub-type are called bundle fields.
 
+Base fields shared amongst all node entities regardless of bundle \(a.k.a node type\):
+
+* title
+* author ID
+* status
+* created timestamp
+* changed timestamp
+* promoted to front page
+* sticky
+* revision timestamp
+* revision author
+* revision log message
+* revision translation affected
+
+The default installation of Drupal 8 comes with two nodes types \(a.k.a. bundles\). Article and Basic Page. As stated above every node type has the base fields attached by default. The fields that make Article and Basic Page node types unique are their bundle fields.
+
+**Basic Page Bundle Field\(s\)**
+
+* Body field
+
+To see a list of bundle fields for a node type navigate to Structure &gt; Content types &gt; Page.
+
+**Article Bundle Field\(s\)**
+
+* Body
+* Comments
+* image
+* tags
+
+Even though both Article and Basic page node types have a Body field it is not a "shared" field so is considered a "bundle field" not a "shared field".
+
+
+
