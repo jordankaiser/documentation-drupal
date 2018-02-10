@@ -22,7 +22,7 @@ An easy way to know if you're looking at a Configuration or Content entity is to
 
 ## Entity Types in Drupal
 
-Reference the class map from Drupal.org for an idea on class hierarchy. 
+Reference the class map from Drupal.org for an idea on class hierarchy.
 
 Config entities extend `\Drupal\Core\Config\Entity\ConfigEntityBase`.
 
@@ -31,4 +31,10 @@ Content entities extend `\Drupal\Core\Entity\Content\ContentEntityBase`.
 Both Config and Content entities extend `Drupal\Core\Entity\Entity` and `\Drupal/Core/Entity/EntityInterface` .
 
 Configuration Entities main functionality has to do with information storage and syncing. Content entities has to do with fields, translations, validation and revisions.
+
+## Content entity basics
+
+Unlike Config entities Content entities are fieldable. Those fields can be shared among all entities of a tiven type, those fields are called base fields. Fields that are unique among the the sub-type are called bundle fields.
+
+
 
