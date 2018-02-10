@@ -2,6 +2,8 @@
 
 Entities are the basic building blocks of Drupals data model. The make up, in one way or another, all the visible content a user interacts with on a Drupal site. Entities can be customized by adding fields to them. Entity types function as a sort of top-level container.
 
+Responsible for providing the basic organizational mechanisms for  creating the sites content. Everything in Drupal 8 is an Entity. All of an Entities properties and values are fields \(bundle or base\) which provides a unified way to modify/work with them. Understanding the relationship between entity types, bundles and fields and how they can be used.
+
 Entities can be defined in two types, Configuration Entities and Content Entities.
 
 ## Configuration Entities
@@ -36,7 +38,7 @@ Bundles are a generic noun used to describe containers for a sub-type of a parti
 
 ### Fields
 
-Fields are the data elements that make up the details of the data model. For example if you want to build a photo gallery then an image field would be useful. 
+Fields are the data elements that make up the details of the data model. For example if you want to build a photo gallery then an image field would be useful.
 
 Field types in Drupal core:
 
@@ -55,47 +57,15 @@ The actual data primitive that drupal utilizes pulls values from these fields. F
 
 ### Plugins
 
+Used to encapsulate re-usable behavior.
 
+### Annotations
 
+Specifically formatted code comments that are parsed to provide metadata information about particular PHP classes to Drupal.
 
+### Handlers
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The equivalent to Drupals 7's controllers. They act on and with entities. Used for managing thing like storage, access control, list building and view of entitites and the forms required for creating, viewing, updating and deleting entities.
 
 
 
