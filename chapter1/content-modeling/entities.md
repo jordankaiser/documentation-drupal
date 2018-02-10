@@ -32,5 +32,72 @@ It's common to find entity variants come in pairs. For example the Block module 
 
 ### Bundles
 
-Bundles is a generic noun used to describe containers for a sub-type of a particular entity. For example, nodes are a type of entity. The node entity has a bundle for each content type \(article, page, blog post, etc\). Taxonomy is another entity type, and each individual vocabulary has it's own bundle. Bundles provide an organizational abstraction layer that allows for differences in field definitions and configuration between entity sub-types. For a particular entity type \(i.e. node\) all bundles \(article, page, etc\) will have the same base fields \(title, author\) but will have different bundle fields \(such as articles having tags\).
+Bundles are a generic noun used to describe containers for a sub-type of a particular entity. For example, nodes are a type of entity. The node entity has a bundle for each content type \(article, page, blog post, etc\). Taxonomy is another entity type, and each individual vocabulary has it's own bundle. Bundles provide an organizational abstraction layer that allows for differences in field definitions and configuration between entity sub-types. For a particular entity type \(i.e. node\) all bundles \(article, page, etc\) will have the same base fields \(title, author\) but will have different bundle fields \(such as articles having tags\).
+
+### Fields
+
+Fields are the data elements that make up the details of the data model. For example if you want to build a photo gallery then an image field would be useful. 
+
+Field types in Drupal core:
+
+* Boolean.
+* Decimal.
+* Float.
+* Interger.
+* Entity reference \(?\).
+* Link.
+* Image.
+* Email.
+* Telephone.
+* Several types of text fields.
+
+The actual data primitive that drupal utilizes pulls values from these fields. For a field that was an Interger the value entered into the field could be 42. Drupal would take that value and store it as Typed Data \(drupal's data primitive\).
+
+### Plugins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
