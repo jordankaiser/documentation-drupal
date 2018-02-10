@@ -34,7 +34,5 @@ Configuration Entities main functionality has to do with information storage and
 
 ## Content entity basics
 
-Unlike Config entities Content entities are fieldable. Those fields can be shared among all entities of a tiven type, those fields are called base fields. Fields that are unique among the the sub-type are called bundle fields.
-
-
+Unlike Config entities Content entities are fieldable. Those fields can be shared among all entities of a given type, those fields are called base fields. Fields that are unique among the the sub-type are called bundle fields.
 
