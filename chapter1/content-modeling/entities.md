@@ -2,7 +2,7 @@
 
 Entities are the basic building blocks of Drupals data model. The make up, in one way or another, all the visible content a user interacts with on a Drupal site. Entities can be customized by adding fields to them. Entity types function as a sort of top-level container.
 
-Responsible for providing the basic organizational mechanisms for  creating the sites content. Everything in Drupal 8 is an Entity. All of an Entities properties and values are fields \(bundle or base\) which provides a unified way to modify/work with them. Understanding the relationship between entity types, bundles and fields and how they can be used.
+Responsible for providing the basic organizational mechanisms for  creating the sites content. Everything in Drupal 8 is an Entity. All of an Entities properties and values are fields \(bundle or base\) which provides a unified way to modify/work with them. Understand the relationship between entity types, bundles and fields and how they can be used.
 
 Entities can be defined in two types, _Configuration Entities_ and _Content Entities_.
 
@@ -17,7 +17,7 @@ Configuration entities are objects that store information and default values for
 
 These are exportable via core's configuration management system and can also be used to provide default configuration during the install process or when a new module is enabled. They support translation but can't have user-configured fields, the data structure is limited to what is provided by core.
 
-What I think this all means is that Configuration entities are purposely limited data structures
+What I think this all means is that Configuration entities are purposely limited data structures used on the back-end.
 
 ## Content Entities
 

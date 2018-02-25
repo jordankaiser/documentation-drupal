@@ -22,7 +22,7 @@ An easy way to know if you're looking at a Configuration or Content entity is to
 
 ## Entity Types in Drupal
 
-Reference the class map from Drupal.org for an idea on class hierarchy.
+Reference the [class map](https://www.drupal.org/files/classDrupal_Entities.png) from Drupal.org for an idea on class hierarchy.
 
 Config entities extend `\Drupal\Core\Config\Entity\ConfigEntityBase`.
 
@@ -66,6 +66,10 @@ To see a list of bundle fields for a node type navigate to Structure &gt; Conten
 * tags
 
 Even though both Article and Basic page node types have a Body field it is not a "shared" field so is considered a "bundle field" not a "shared field".
+
+## EntityType annotations
+
+All Entity Types in Drupal, Config or Content, are defined by a typed Object \(backed by a class w/an interaface\).
 
 
 
