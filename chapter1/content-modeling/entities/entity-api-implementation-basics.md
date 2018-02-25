@@ -69,7 +69,79 @@ Even though both Article and Basic page node types have a Body field it is not a
 
 ## EntityType annotations
 
-All Entity Types in Drupal, Config or Content, are defined by a typed Object \(backed by a class w/an interaface\).
+All Entity Types in Drupal, Config or Content, are defined by a typed Object \(backed by a class w/an interface\). An example of the typed Object for the Node entity follows.
+
+```
+/**
+ * Defines the node entity type.
+ *
+ * @ContentEntityType(
+ *   id = "node",
+ *   label = @Translation("Content"),
+ *   label_singular = @Translation("content item"),
+ *   label_plural = @Translation("content items"),
+ *   label_count = @PluralTranslation(
+ *     singular = "@count content item",
+ *     plural = "@count content items"
+ *   ),
+ *   bundle_label = @Translation("Content type"),
+ *   handlers = {
+ *     "storage" = "Drupal\node\NodeStorage",
+ *     "storage_schema" = "Drupal\node\NodeStorageSchema",
+ *     "view_builder" = "Drupal\node\NodeViewBuilder",
+ *     "access" = "Drupal\node\NodeAccessControlHandler",
+ *     "views_data" = "Drupal\node\NodeViewsData",
+ *     "form" = {
+ *       "default" = "Drupal\node\NodeForm",
+ *       "delete" = "Drupal\node\Form\NodeDeleteForm",
+ *       "edit" = "Drupal\node\NodeForm"
+ *     },
+ *     "route_provider" = {
+ *       "html" = "Drupal\node\Entity\NodeRouteProvider",
+ *     },
+ *     "list_builder" = "Drupal\node\NodeListBuilder",
+ *     "translation" = "Drupal\node\NodeTranslationHandler"
+ *   },
+ *   base_table = "node",
+ *   data_table = "node_field_data",
+ *   revision_table = "node_revision",
+ *   revision_data_table = "node_field_revision",
+ *   translatable = TRUE,
+ *   list_cache_contexts = { "user.node_grants:view" },
+ *   entity_keys = {
+ *     "id" = "nid",
+ *     "revision" = "vid",
+ *     "bundle" = "type",
+ *     "label" = "title",
+ *     "langcode" = "langcode",
+ *     "uuid" = "uuid",
+ *     "status" = "status",
+ *     "uid" = "uid",
+ *   },
+ *   bundle_entity_type = "node_type",
+ *   field_ui_base_route = "entity.node_type.edit_form",
+ *   common_reference_target = TRUE,
+ *   permission_granularity = "bundle",
+ *   links = {
+ *     "canonical" = "/node/{node}",
+ *     "delete-form" = "/node/{node}/delete",
+ *     "edit-form" = "/node/{node}/edit",
+ *     "version-history" = "/node/{node}/revisions",
+ *     "revision" = "/node/{node}/revisions/{node_revision}/view",
+ *   }
+ * )
+ */
+```
+
+The syntax for the above code is [Drupal Annotations](https://drupalize.me/tutorial/annotations?p=2766). Without understanding the code you can see that it's an object with a bunch of settings defining `@ContentEntityType` .
+
+
+
+
+
+
+
+
 
 
 
