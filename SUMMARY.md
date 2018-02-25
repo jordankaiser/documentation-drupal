@@ -7,5 +7,6 @@
     * [Entities](chapter1/content-modeling/entities.md)
       * [Entity API Implementation Basics](chapter1/content-modeling/entities/entity-api-implementation-basics.md)
     * [Taxonomy](chapter1/content-modeling/taxonomy.md)
+      * [Setting Up a Taxonomy](chapter1/content-modeling/taxonomy/setting-up-a-taxonomy.md)
 * [Next Steps](text-steps.md)
 
