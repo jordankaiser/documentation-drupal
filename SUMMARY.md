@@ -10,5 +10,6 @@
       * [Setting Up a Taxonomy](chapter1/content-modeling/taxonomy/setting-up-a-taxonomy.md)
     * [Fields](chapter1/content-modeling/fields.md)
       * [Field Types](chapter1/content-modeling/fields/field-types.md)
+  * [Users, Roles and Permissions](chapter1/users-roles-and-permissions.md)
 * [Next Steps](text-steps.md)
 
