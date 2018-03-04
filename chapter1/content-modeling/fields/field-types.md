@@ -6,3 +6,9 @@ To see an example of Fields take a look at _Structure  &gt; Content types  &gt; 
 
 For example you can set help text on the field, pre-populate with a default value. In addition under Field Settings you can adjust the Allowed number of fields. What this will do is limit \(or un-limit\) the number of times that particular field can be used.
 
+## Primary Components of the Field API
+
+The three main components that make up Fields \(when constructing a custom field type\) are _types,_ _widgets_, and _formatters_.
+
+
+
