@@ -13,6 +13,6 @@
   * [Users, Roles and Permissions](chapter1/users-roles-and-permissions.md)
   * [Content Workflow](chapter1/content-workflow.md)
   * [Extend and Customize](chapter1/extend-and-customize.md)
+    * [Extend Drupal with Modules](chapter1/extend-and-customize/extend-drupal-with-modules.md)
 * [Next Steps](text-steps.md)
-* Extend Drupal with Modules
 
