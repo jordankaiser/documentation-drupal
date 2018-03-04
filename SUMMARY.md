@@ -11,5 +11,6 @@
     * [Fields](chapter1/content-modeling/fields.md)
       * [Field Types](chapter1/content-modeling/fields/field-types.md)
   * [Users, Roles and Permissions](chapter1/users-roles-and-permissions.md)
+  * [Content Workflow](chapter1/content-workflow.md)
 * [Next Steps](text-steps.md)
 
