@@ -12,5 +12,7 @@
       * [Field Types](chapter1/content-modeling/fields/field-types.md)
   * [Users, Roles and Permissions](chapter1/users-roles-and-permissions.md)
   * [Content Workflow](chapter1/content-workflow.md)
+  * [Extend and Customize](chapter1/extend-and-customize.md)
 * [Next Steps](text-steps.md)
+* Extend Drupal with Modules
 
