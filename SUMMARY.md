@@ -15,5 +15,6 @@
   * [Extend and Customize](chapter1/extend-and-customize.md)
     * [Extend Drupal with Modules](chapter1/extend-and-customize/extend-drupal-with-modules.md)
       * [Installing and Enabling Modules](chapter1/extend-and-customize/extend-drupal-with-modules/installing-and-enabling-modules.md)
+  * [Display Content with Views](chapter1/display-content-with-views.md)
 * [Next Steps](text-steps.md)
 
