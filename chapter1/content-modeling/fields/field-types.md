@@ -16,7 +16,11 @@ The field types allows you to store different types of data. For example a Boole
 
 ### Widgets
 
-Widgets help determine how the field should be displayed on the form field. In other words 
+Widgets help determine how the field should be rendered on the edit form. For example a boolean field type would be rendered as a checkbox.
+
+### Formatters
+
+The Formatter is responsible for the final rendered out to the end user.
 
 
 
