@@ -14,5 +14,6 @@
   * [Content Workflow](chapter1/content-workflow.md)
   * [Extend and Customize](chapter1/extend-and-customize.md)
     * [Extend Drupal with Modules](chapter1/extend-and-customize/extend-drupal-with-modules.md)
+      * [Installing and Enabling Modules](chapter1/extend-and-customize/extend-drupal-with-modules/installing-and-enabling-modules.md)
 * [Next Steps](text-steps.md)
 
