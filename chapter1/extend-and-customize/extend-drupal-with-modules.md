@@ -8,5 +8,7 @@ The three types of modules are:
 
 **Contributed modules:** These are modules built by the community. The are typically in _/modules/contrib_.
 
-**Custom modules:** Custom modules written for your project.
+**Custom modules:** Custom modules written for your project. Typically in _/modules/custom_.
+
+
 
