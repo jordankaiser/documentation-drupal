@@ -10,5 +10,13 @@ For example you can set help text on the field, pre-populate with a default valu
 
 The three main components that make up Fields \(when constructing a custom field type\) are _types,_ _widgets_, and _formatters_.
 
+### Types
+
+The field types allows you to store different types of data. For example a Boolean value and a  Text value would have different Field Types.
+
+### Widgets
+
+Widgets help determine how the field should be displayed on the form field. In other words 
+
 
 
