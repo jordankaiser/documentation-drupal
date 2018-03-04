@@ -4,6 +4,8 @@ There are two ways of installing and enabling Drupal modules. One is through the
 
 Modules are stored in _sites &gt; all &gt; modules_. You'll see a modules folder at the root of you site as well. This is only for core modules and should be modified.
 
+Note: [Composer](https://drupalize.me/topic/composer) is new in Drupal 8 and helps you manage your modules.
+
 ## Installing a modules through the Admin interface
 
 First make sure _Update Manager _ is turned on under the _Extend_ section of the Drupal CMS. This module allows you to install other modules through the admin interface is also helps keep you installed modules up to date.
