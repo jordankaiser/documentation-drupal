@@ -17,5 +17,6 @@
       * [Installing and Enabling Modules](chapter1/extend-and-customize/extend-drupal-with-modules/installing-and-enabling-modules.md)
   * [Display Content with Views](chapter1/display-content-with-views.md)
     * [Overview of the Views Interface](chapter1/display-content-with-views/overview-of-the-views-interface.md)
+    * [Creating a new View](chapter1/display-content-with-views/creating-a-new-view.md)
 * [Next Steps](text-steps.md)
 
