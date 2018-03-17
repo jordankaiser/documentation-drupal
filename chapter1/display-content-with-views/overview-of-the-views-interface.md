@@ -4,7 +4,7 @@ What's commonly refered to as Views is actually two modules, Views and Views UI.
 
 To see the Views admin interface navigate to _Structure &gt; Views_. Here you can see the default list of Views included. Let's look at the Frontpage View as an example.
 
-At the top we can see the Displays heading under which Page is selected. Page is the most common view in Drupal. It allows you to define a URL that live on the Drupal site the lists content in a way that's viewable to a user.
+At the top we can see the Displays heading under which Page is selected. Page is the most common view in Drupal. It allows you to define a URL that lives on the Drupal site that lists content in a way that's viewable to a user.
 
 Within the Displays section we can see the Format area which defines how the data will be formatted.
 
