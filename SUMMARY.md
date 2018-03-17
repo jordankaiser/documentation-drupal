@@ -18,6 +18,6 @@
   * [Display Content with Views](chapter1/display-content-with-views.md)
     * [Overview of the Views Interface](chapter1/display-content-with-views/overview-of-the-views-interface.md)
     * [Creating a new View](chapter1/display-content-with-views/creating-a-new-view.md)
-    * Displaying Content & Fields with Views Format
+    * [Displaying Content & Fields with Views Format](chapter1/display-content-with-views/displaying-content-and-fields-with-views-format.md)
 * [Next Steps](text-steps.md)
 
