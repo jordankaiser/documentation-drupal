@@ -6,5 +6,11 @@ This is a useful setup as the contact person could then update their information
 
 However since he's not fieldable within the Job Posting content type we can't just add him in a new field. That's why we'd using Views Relationships.
 
+To setup the Relationship:
+
+* Under Advanced select Add next to Relationships.
+* Select the desired field.
+* In the Fields section in the first column of the Views page you'll now be able to add the Content pulled in through the Reference.
+
 
 
