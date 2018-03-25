@@ -8,3 +8,5 @@ Additionally under the Format section you've got the Show settings. Here is you 
 
 When you set the _Format Show_ to _Fields_ you can pick individual fields within the content type to show.
 
+Under the _Fields_ section is where you decide which of the fields get pulled into the view.
+
