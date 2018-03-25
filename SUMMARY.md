@@ -19,5 +19,6 @@
     * [Overview of the Views Interface](chapter1/display-content-with-views/overview-of-the-views-interface.md)
     * [Creating a new View](chapter1/display-content-with-views/creating-a-new-view.md)
     * [Displaying Content & Fields with Views Format](chapter1/display-content-with-views/displaying-content-and-fields-with-views-format.md)
+    * [Controlling HTML Markup with Views Style Settings](chapter1/display-content-with-views/controlling-html-markup-with-views-style-settings.md)
 * [Next Steps](text-steps.md)
 
