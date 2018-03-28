@@ -5,7 +5,5 @@ The root folder of a theme should be all lowercase and use underscores instead o
 * _Sites/\[site name\]/themes/\[theme name\]_
 * _Themes/\[contrib/custom\]/\[theme name\]_
 
-You would organized themes under _Sites_ in situations where you have a multisite drupal install. Otherwise they can go under the _Themes _folder.
-
-
+You would organized themes under _Sites_ in situations where you have a multisite Drupal install. Otherwise they can go under the _themes _folder.
 
