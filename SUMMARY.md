@@ -21,5 +21,6 @@
     * [Displaying Content & Fields with Views Format](chapter1/display-content-with-views/displaying-content-and-fields-with-views-format.md)
     * [Controlling HTML Markup with Views Style Settings](chapter1/display-content-with-views/controlling-html-markup-with-views-style-settings.md)
     * [Configuring Views Relationships](chapter1/display-content-with-views/configuring-views-relationships.md)
+* [Theming](theming.md)
 * [Next Steps](text-steps.md)
 
