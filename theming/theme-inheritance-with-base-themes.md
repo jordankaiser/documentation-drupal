@@ -19,16 +19,28 @@ A php file that hanldes logic and preprocesses variables before they are output 
 
 #### templates/.html.twig
 
-Twig files provide the HTML markup and some presentation logic. Template files follow a specific naming structure. They override the default markup output by Drupal. These files are required to be placed in a _templates _sub-directory and can then be organized into more sub-directories from there.
+Twig files provide the HTML markup and some presentation logic. Template files follow a specific naming structure. They override the default markup output by Drupal. These files are required to be placed in a \_templates \_sub-directory and can then be organized into more sub-directories from there.
 
 Examples:
 
 * themes/icecream/templates/node.html.twig, 
 * themes/icecream/templates/layout/page--about.html.twig
 
+#### \[themename\].libraries.yml
 
+Where you pull in CSS/JS libraries.
 
+#### \[themename\].breakpoints.yml
 
+Define responsive breakpoints.
+
+#### config/\* directory
+
+Additionally Drupal configuration.
+
+#### CSS, JS and image files
+
+An example using the Bartik theme.![](/assets/themejscss.jpg)
 
 
 
