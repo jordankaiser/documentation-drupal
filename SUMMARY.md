@@ -23,5 +23,6 @@
     * [Configuring Views Relationships](chapter1/display-content-with-views/configuring-views-relationships.md)
 * [Theming](theming.md)
   * [Install and Uninstall Themes](theming/install-and-uninstall-themes.md)
+  * [Structure of a Theme](theming/theme-inheritance-with-base-themes.md)
 * [Next Steps](text-steps.md)
 
