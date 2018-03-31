@@ -24,5 +24,7 @@
 * [Theming](theming.md)
   * [Install and Uninstall Themes](theming/install-and-uninstall-themes.md)
   * [Structure of a Theme](theming/theme-inheritance-with-base-themes.md)
+  * [Describe Your Them with an Info File](theming/describe-your-them-with-an-info-file.md)
+  * [Regions](theming/regions.md)
 * [Next Steps](text-steps.md)
 
