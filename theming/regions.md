@@ -14,6 +14,8 @@ The content of a region consists of any blocks within it. That is generally outp
 {% endif %}
 ```
 
+### Add Regions to a Theme
+
 
 
 
