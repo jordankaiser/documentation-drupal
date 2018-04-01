@@ -21,7 +21,24 @@ Something to note. You'll notice some filters in drupal twig templates that are 
 
 // An example of a function. ".addClass" is a custom Drupal method.
 <div{{ attributes.addClass('banner') }}>
+```
 
+### Control structures
+
+Use the `{% %}` syntax for control structures.
+
+In the code below we're building a list of class names. Note the `clean_class` filter is a custom drupal filter.
+
+In the code below we're running into use of the `~` as an operator.  The way this is being used, I think, is as a relational operator similar to a `=` . You can get a sense how it's used on the wikipedia page for the `~` but basically it's a weaker version of the `=` , perhaps similar to how in javascript the `==` is weaker or lossier version of `===` .
+
+```
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+  ]
+%}
 
 ```
 
