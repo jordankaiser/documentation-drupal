@@ -50,6 +50,11 @@ Twig is the templating engine in Drupal. It compiles down to PHP. Drupal version
 {% block content %}
     // Markup
 {% endblock %}
+
+// In "filename.html.twig" this is how we pull in the "content" block defined above.
+{% block content %}
+    // Content pulled in from the "content" block
+{% endblock %}
 ```
 
 
