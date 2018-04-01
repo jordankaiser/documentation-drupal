@@ -29,7 +29,7 @@ Use the `{% %}` syntax for control structures.
 
 In the code below we're building a list of class names. Note the `clean_class` filter is a custom drupal filter.
 
-In the code below we're running into use of the `~` as an operator.  The way this is being used, I think, is as a relational operator similar to a `=` . You can get a sense how it's used on the wikipedia page for the `~` but basically it's a weaker version of the `=` , perhaps similar to how in javascript the `==` is weaker or lossier version of `===` .
+In the code below we're running into use of the `~` as an operator.  The way this is being used, I think, is as a relational operator similar to a `=` . You can get a sense how it's used on the [wikipedia page](https://en.wikipedia.org/wiki/Tilde#As_a_relational_operator) for the `~` but basically it's a weaker version of the `=` , perhaps similar to how in javascript the `==` is weaker or lossier version of `===` .
 
 ```
 {%
@@ -39,8 +39,39 @@ In the code below we're running into use of the `~` as an operator.  The way thi
     'block-' ~ plugin_id|clean_class,
   ]
 %}
+```
+
+An `if` statement.
 
 ```
+{% if page.footer %}
+  <footer role="contentinfo">
+    {{ page.footer }}
+  </footer>
+{% endif %}
+```
+
+An example pulling in various delimiters.
+
+```
+{% if types is not empty %}
+  <dl class="node-type-list">
+    {% for type in types %}
+      <dt>{{ type.add_link }}</dt>
+      <dd>{{ type.description }}</dd>
+    {% endfor %}
+  </dl>
+{% else %}
+  <p>
+    {% set create_content = path('node.type_add') %}
+    {% trans %}
+      You have not created any content types yet. Go to the <a href="{{ create_content }}">content type creation page</a> to add a new content type.
+    {% endtrans %}
+  </p>
+{% endif %}
+```
+
+
 
 
 
