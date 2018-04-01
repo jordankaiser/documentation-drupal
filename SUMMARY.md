@@ -28,5 +28,6 @@
   * [Regions](theming/regions.md)
   * [Twig in Drupal](theming/twig-in-drupal.md)
     * [Twig Syntax Delimiters](theming/twig-in-drupal/twig-syntax-delimiters.md)
+    * [Arrays and Objects in Twig](theming/twig-in-drupal/arrays-and-objects-in-twig.md)
 * [Next Steps](text-steps.md)
 
