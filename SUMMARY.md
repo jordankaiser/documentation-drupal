@@ -27,5 +27,6 @@
   * [Describe Your Them with an Info File](theming/describe-your-them-with-an-info-file.md)
   * [Regions](theming/regions.md)
   * [Twig in Drupal](theming/twig-in-drupal.md)
+    * [Twig Syntax Delimiters](theming/twig-in-drupal/twig-syntax-delimiters.md)
 * [Next Steps](text-steps.md)
 
