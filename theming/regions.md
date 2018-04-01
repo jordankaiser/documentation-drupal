@@ -41,7 +41,7 @@ regions:
 
 #### Output content of the regions in page.html.twig
 
-What you'll then need to do is reference the regions you defined in `info.yml` in your template files. 
+What you'll then need to do is reference the regions you defined in `info.yml` in your template files.
 
 An example of how you'd do that:
 
@@ -54,6 +54,10 @@ An example of how you'd do that:
 ```
 
 In the above we're also using twig conditionals `{% if %}` to only show the markup if there is content to show.
+
+#### Tips
+
+As soon as you declare any regions in your theme, you override all the defaults provided by Drupal core. In most cases you will likely want to have content, page\_bottom, and page\_top regions at a minimum. Many modules expect them to be there.
 
 
 
