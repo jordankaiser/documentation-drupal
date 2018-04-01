@@ -41,6 +41,7 @@ Twig is the templating engine in Drupal. It compiles down to PHP. Drupal version
 * `extends` is the keyword that lets you use inheritance.
 * `block` defines the customizable area where another templates code will go.
 * When a template uses `extends` all markup is surrounded by `block` tags to define custom markup.
+* In the example below you can see that `block` is defined and referenced using the same syntax. Make note of this and how it relates to the `{% extends %}` .
 
 ```
 // Here we're saying the the following code will be pulled into "filename.html.twig".
