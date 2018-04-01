@@ -26,5 +26,6 @@
   * [Structure of a Theme](theming/theme-inheritance-with-base-themes.md)
   * [Describe Your Them with an Info File](theming/describe-your-them-with-an-info-file.md)
   * [Regions](theming/regions.md)
+  * [Twig in Drupal](theming/twig-in-drupal.md)
 * [Next Steps](text-steps.md)
 
