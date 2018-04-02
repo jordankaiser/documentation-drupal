@@ -31,7 +31,27 @@ You can access both the key and the value of an object during a loop.
 </ul>
 ```
 
-### Using if conditions in loops
+### Using if and else conditions in loops
+
+Like so:
+
+```
+// Using an if
+<ul class='blog-post__tags field__items'>
+  {% for item in items if item.status %}
+    <li>{{ value.content }}</li>
+  {% endfor %}
+</ul>
+
+// Using an else
+<ul class='blog-post__tags field__items'>
+  {% for item in items %}
+    <li>{{ item.content }}</li>
+  {% else %}
+    <li>This list is empty</li>
+  {% endfor %}
+</ul>
+```
 
 
 
