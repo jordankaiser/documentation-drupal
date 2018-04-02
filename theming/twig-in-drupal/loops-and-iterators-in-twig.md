@@ -18,5 +18,20 @@ Inside a loop you have access to a special `loop` variable which contains inform
 
 ### Iterating over key/value pairs
 
+You can access both the key and the value of an object during a loop.
+
+```
+// Delta is the key
+// Value is the value
+// Items is what's getting looped
+<ul class='blog-post__tags field__items'>
+  {% for delta, value in items %}
+    <li>{{delta}}: {{ value.content }}</li>
+  {% endfor %}
+</ul>
+```
+
+### Using if conditions in loops
+
 
 
