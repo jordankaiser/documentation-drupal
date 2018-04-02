@@ -12,7 +12,7 @@ The following outputs a list of unordered list items.
 
 ### The loop variable
 
-Inside a loop you have access to a special `loop` variable which contains information about the current state and context of the loop.
+Inside a loop you have access to a special `loop` variable which contains information about the current state and context of the loop. Lorem.
 
 ![](/assets/twig-loop-specials.jpg)
 
