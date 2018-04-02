@@ -53,5 +53,9 @@ Like so:
 </ul>
 ```
 
+### Resources
 
+[Twit Documentation Compendium](https://twig.symfony.com/doc/2.x/)
+
+[Twig Documentation For Designers](https://twig.symfony.com/doc/2.x/templates.html)
 
