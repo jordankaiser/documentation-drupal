@@ -42,9 +42,13 @@ You can only use square brackets on arrays. If you variable name contains a spec
 
 ### Multi-level and combining syntaxes
 
+An example where we are accessing a few properties of an array of images that a couple levels deep.
 
-
-
+```
+{{ content.field_image.0['#item'].alt }} {# Alt attribute #}
+{{ content.field_image.0['#item'].width }} {# Width attribute #}
+{{ content.field_image.0['#item'].height }} {# Height attribute #}
+```
 
 
 
