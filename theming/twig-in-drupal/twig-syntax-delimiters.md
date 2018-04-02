@@ -29,7 +29,7 @@ Use the `{% %}` syntax for control structures.
 
 In the code below we're building a list of class names. Note the `clean_class` filter is a custom drupal filter.
 
-In the code below we're running into use of the `~` as an operator.  The way this is being used, I think, is as a relational operator similar to a `=` . You can get a sense how it's used on the [wikipedia page](https://en.wikipedia.org/wiki/Tilde#As_a_relational_operator) for the `~` but basically it's a weaker version of the `=` , perhaps similar to how in javascript the `==` is weaker or lossier version of `===` .
+In the code below we're running into use of the `~` as an operator. In twig the `~` operator converts all operands \(things it's preforming the operation on\) into strings and concatenates them. Here is some [documentation](https://twig.symfony.com/doc/2.x/templates.html#other-operators) on the `~` from the Twig dogs.
 
 ```
 {%
@@ -70,8 +70,6 @@ An example pulling in various delimiters.
   </p>
 {% endif %}
 ```
-
-
 
 
 
