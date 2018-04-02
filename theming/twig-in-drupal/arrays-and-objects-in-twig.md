@@ -50,7 +50,9 @@ An example where we are accessing a few properties of an array of images that a 
 {{ content.field_image.0['#item'].height }} {# Height attribute #}
 ```
 
+### Object operators in javascript
 
+You cannot use the PHP `->` operator in Twig is it will escape the the great-than sign. To access elements inside an object use the dot operator or `attribute()` function. Or do it in preprocessing.
 
 
 
