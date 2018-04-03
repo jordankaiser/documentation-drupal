@@ -23,7 +23,7 @@
     * [Configuring Views Relationships](chapter1/display-content-with-views/configuring-views-relationships.md)
 * [Theming](theming.md)
   * [Install and Uninstall Themes](theming/install-and-uninstall-themes.md)
-  * [Structure of a Theme](theming/theme-inheritance-with-base-themes.md)
+  * [Theme Inheritance with Base Themes](theming/theme-inheritance-with-base-themes.md)
   * [Structure of a Theme](theming/structure-of-a-theme.md)
   * [Describe Your Them with an Info File](theming/describe-your-them-with-an-info-file.md)
   * [Regions](theming/regions.md)
