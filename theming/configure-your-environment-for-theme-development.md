@@ -28,5 +28,17 @@ Using the _sites/default/settings.local.php_ file will also include and use _sit
 
 ### Enable Twig debugging options
 
+If you've followed the stesp for Disabling JS and CSS aggregation and caching then in sites/development.services.yml you can adjust your twig.config properties as follows.
+
+```
+parameters:
+ twig.config:
+   debug: true
+   auto_reload: true
+   cache: false
+```
+
+
+
 
 
