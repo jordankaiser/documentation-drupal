@@ -2,6 +2,8 @@
 
 Here are the steps you take to put your Drupal site into development mode. Without doing these Drupal's aggressive cacheing will make theme development a chore.
 
+### Disable render caching and JS/CSS aggregation
+
 ### 1. Edit your settings.php file
 
 Uncomment the follow code in _/sites/default/settings.php_.
@@ -23,6 +25,8 @@ Drupal will now use _settings.local.php_.
 ### 4. Use development.services.yml
 
 Using the _sites/default/settings.local.php_ file will also include and use _sites/development.services.yml._
+
+
 
 
 
