@@ -2,6 +2,8 @@
 
 Here are the steps you take to put your Drupal site into development mode. Without doing these Drupal's aggressive cacheing will make theme development a chore.
 
+Once development is complete you should revert these changes.
+
 ### Disable render caching and JS/CSS aggregation
 
 #### 1. Edit your settings.php file
@@ -32,13 +34,11 @@ If you've followed the stesp for Disabling JS and CSS aggregation and caching th
 
 ```
 parameters:
- twig.config:
-   debug: true
-   auto_reload: true
-   cache: false
+  twig.config:
+    debug: true
+    auto_reload: true
+    cache: false
 ```
-
-
 
 
 
