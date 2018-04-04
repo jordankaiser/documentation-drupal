@@ -28,6 +28,7 @@
   * [Regions](theming/regions.md)
   * [Theme Inheritance with Base Themes](theming/theme-inheritance-with-base-themes.md)
   * [Configure Your Environment for Theme Development](theming/configure-your-environment-for-theme-development.md)
+  * [What Are Template Files?](theming/what-are-template-files.md)
   * [Twig in Drupal](theming/twig-in-drupal.md)
     * [Twig Syntax Delimiters](theming/twig-in-drupal/twig-syntax-delimiters.md)
     * [Arrays and Objects in Twig](theming/twig-in-drupal/arrays-and-objects-in-twig.md)
