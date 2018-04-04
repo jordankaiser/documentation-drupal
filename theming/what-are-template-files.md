@@ -16,6 +16,14 @@ You don't change the base version of the template though. Instead you create a n
 
 ### How Drupal determines which template to use
 
+The order in which Drupal will search through it's themes is:
+
+1. Current theme
+2. Parent theme
+3. Drupal core or contrib module
+
+### Theme Hook Suggestions
+
 
 
 
