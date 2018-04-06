@@ -30,10 +30,10 @@
   * [Configure Your Environment for Theme Development](theming/configure-your-environment-for-theme-development.md)
   * [What Are Template Files?](theming/what-are-template-files.md)
   * [Override a Template File](theming/override-a-template-file.md)
+  * [Determine the Base Name of a Template](theming/determine-the-base-name-of-a-template.md)
   * [Twig in Drupal](theming/twig-in-drupal.md)
     * [Twig Syntax Delimiters](theming/twig-in-drupal/twig-syntax-delimiters.md)
     * [Arrays and Objects in Twig](theming/twig-in-drupal/arrays-and-objects-in-twig.md)
     * [Loops and Iterators in Twig](theming/twig-in-drupal/loops-and-iterators-in-twig.md)
-  * [Determine the Base Name of a Template](theming/determine-the-base-name-of-a-template.md)
 * [Next Steps](text-steps.md)
 
