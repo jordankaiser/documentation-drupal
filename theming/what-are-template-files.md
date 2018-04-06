@@ -22,6 +22,10 @@ The order in which Drupal will search through it's themes is:
 2. Parent theme
 3. Drupal core or contrib module
 
+**KEY CONCEPT**
+
+When asked to display a node Drupal will start with it's most basic template `node.html.twig` and start looking for more specific derivatives of it. If it doesn't find anything more specific it falls back on the core set of base templates that come with drupal \(the template files in _core/themes_\).
+
 ### Theme Hook Suggestions
 
 You can also structure a template file like this.
@@ -30,5 +34,5 @@ You can also structure a template file like this.
 node--page--teaser.html.twig
 ```
 
-When the filename is structured like that Drupal will use that file naming pattern when attempting to find a match. What this means in practice is that you could have both a `node--page.html.twig` and a `node--page--teaser.html.twig` where the template without the _teaser_ in the file name is broader _page \_styles whereas the template with \_teaser_ in it contains markup particular to a teaser.
+When the filename is structured like that Drupal will use that file naming pattern when attempting to find a match. What this means in practice is that you could have both a `node--page.html.twig` and a `node--page--teaser.html.twig` . Then as Drupal is parsing template to decide which one to apply if it
 
