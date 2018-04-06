@@ -30,7 +30,5 @@ You can also structure a template file like this.
 node--page--teaser.html.twig
 ```
 
-When the filename is structured like that Drupal will use that file naming pattern when attempting to find a match. What this means in practice is that you could have both a `node--page--teaser.html.twig` and a `node--page--teaser.html.twig` where the template without the _teaser_ in the file name is broader _page _styles whereas the template with _teaser_ in it contains markup particular to a teaser.
-
-
+When the filename is structured like that Drupal will use that file naming pattern when attempting to find a match. What this means in practice is that you could have both a `node--page.html.twig` and a `node--page--teaser.html.twig` where the template without the _teaser_ in the file name is broader _page \_styles whereas the template with \_teaser_ in it contains markup particular to a teaser.
 
