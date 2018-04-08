@@ -37,5 +37,6 @@
     * [Twig Syntax Delimiters](theming/twig-in-drupal/twig-syntax-delimiters.md)
     * [Arrays and Objects in Twig](theming/twig-in-drupal/arrays-and-objects-in-twig.md)
     * [Loops and Iterators in Twig](theming/twig-in-drupal/loops-and-iterators-in-twig.md)
+  * [Twig Filters and Functions](theming/twig-filters-and-functions.md)
 * [Next Steps](text-steps.md)
 
