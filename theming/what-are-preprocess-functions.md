@@ -20,7 +20,7 @@ Give the template themes/icecream/templates/node--article.html.twig you might th
 icecream_preprocess_node_article()
 ```
 
-However in this case only the following will work. The additional suggestions in the template/hook are ignored. You only specify the HOOK in the function name. If you want scope your business logic to a specific template then you'd do that within the preprocess function.
+However in this case only the following will work. The additional suggestions in the template/hook are ignored. You only specify the HOOK in the function name. If you want scope your business logic to a specific template \(i.e. node--article.twig.html\) then you'd do that within the preprocess function.
 
 ```
 icecream_preprocess_node()
