@@ -16,5 +16,5 @@ Keep in mind that while previously these tags where displayed in divs since we'r
 
 ### Add first and last classes
 
-
+Using the Twig [loop variable](https://twig.symfony.com/doc/2.x/tags/for.html#the-loop-variable) we can add specific classes for the first and last items in our loop like so:
 
