@@ -20,7 +20,7 @@ Give the template themes/icecream/templates/node--article.html.twig you might th
 icecream_preprocess_node_article()
 ```
 
-However in this case only the following will work. The additional suggestions in the template/hook are ignored.
+However in this case only the following will work. The additional suggestions in the template/hook are ignored. You only specify the HOOK in the function name. If you want scope your business logic to a specific template then you'd do that within the preprocess function.
 
 ```
 icecream_preprocess_node()
@@ -48,8 +48,6 @@ function icecream_preprocess_node(&$variables) {
 Besides template specific preprocess functions there are also them preprocess functions. They are used when you want to preform data processing for every single template. They are called frequently, perhaps hundreds of times on a single page so should not be complex.
 
 Below is the complete list of preprocess functions.
-
-
 
 * `template_preprocess(&$variables, $hook)`: Creates a default set of variables for all theme hooks with template implementations. Provided by Drupal Core.
 * `template_preprocess_HOOK(&$variables)`: Should be implemented by the module that registers the theme hook, to set up default variables.
