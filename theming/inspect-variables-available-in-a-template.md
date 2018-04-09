@@ -18,11 +18,19 @@ In a twig template you can use the following to print all available variables
 {{ kint(_context|keys) }}
 ```
 
-In a preprocess function you can use the following.
+In a preprocess function you can use the following to print all available variables.
 
 ```
 kint($variables);
 ```
+
+An example of getting the value of a label in a preprocess function.
+
+```
+kint($variables['label']['0']['#context']['value']);
+```
+
+
 
 
 
