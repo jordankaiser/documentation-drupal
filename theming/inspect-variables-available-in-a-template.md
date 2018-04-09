@@ -10,5 +10,11 @@ Using kint you can inspect a field like so:
 
 This will give you properties and available methods to look at/use.
 
+To get a list of the available variables you can run the following command.
+
+```
+{{ kint(_context|keys) }}
+```
+
 
 
