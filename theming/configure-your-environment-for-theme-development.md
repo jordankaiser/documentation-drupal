@@ -24,6 +24,14 @@ Copy _sites/example.settings.local.php_ to _sites/default/settings.local.php_, a
 
 Drupal will now use _settings.local.php_.
 
+Make sure the following lines are uncommented
+
+```
+$config['system.performance']['css']['preprocess'] = FALSE;
+$config['system.performance']['js']['preprocess'] = FALSE;
+$settings['cache']['bins']['render'] = 'cache.backend.null';
+```
+
 #### 4. Use development.services.yml
 
 Using the _sites/default/settings.local.php_ file will also include and use _sites/development.services.yml._
