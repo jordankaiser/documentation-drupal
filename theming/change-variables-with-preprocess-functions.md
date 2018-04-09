@@ -10,7 +10,15 @@ function icecream_preprocess_node(&$variables) {
 }
 ```
 
+The `&$variables` argument passed to this new function is an associative array. Each key in the array represents a variable that is available for the Twig template.
 
+In the example below we're appending the string " \[ hello\]" to the `label` variable.
+
+```
+function icecream_preprocess_node(&$variables) {
+     $variables['label']['#suffix'] =' [you are the author]';
+}
+```
 
 
 
