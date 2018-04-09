@@ -40,5 +40,6 @@
     * [Loops and Iterators in Twig](theming/twig-in-drupal/loops-and-iterators-in-twig.md)
     * [Print Values from a Field with a For Loop](theming/print-values-from-a-field-with-a-for-loop.md)
     * [Twig Filters and Functions](theming/twig-filters-and-functions.md)
+  * [Change Variables with Preprocess Functions](theming/change-variables-with-preprocess-functions.md)
 * [Next Steps](text-steps.md)
 
