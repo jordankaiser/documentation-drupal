@@ -10,10 +10,18 @@ Using kint you can inspect a field like so:
 
 This will give you properties and available methods to look at/use.
 
-To get a list of the available variables you can run the following command.
+### List all available variables
+
+In a twig template you can use the following to print all available variables
 
 ```
 {{ kint(_context|keys) }}
+```
+
+In a preprocess function you can use the following.
+
+```
+kint($variables);
 ```
 
 
